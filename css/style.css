@@ -5,11 +5,11 @@ padding: 0px;
 
 
 .navbar-dark{
-    background-color: rgb(22, 187, 22);
+    background-color: rgb(17, 19, 102);
 }
 
 .txt-color{
-    color:rgb(78, 4, 4);
+    color:white;
     text-shadow: 0.4px 0.3px rgb(183, 225, 241);
 }
 
@@ -20,7 +20,14 @@ padding: 0px;
     margin: auto 8px ;
 }
 
-.dropdown-menu{
-    background-color: rgb(76, 223, 76);
-    
+
+.row-content{
+    height:400px;
+}    
+
+.jumbotron{
+    background-color: rgb(210, 186, 238);
+}
+.footer{
+    background-color: rgb(130, 136, 141);
 }
