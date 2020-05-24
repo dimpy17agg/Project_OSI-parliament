@@ -1,0 +1,26 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+
+.navbar-dark{
+    background-color: rgb(22, 187, 22);
+}
+
+.txt-color{
+    color:rgb(78, 4, 4);
+    text-shadow: 0.4px 0.3px rgb(183, 225, 241);
+}
+
+.navbar-nav{
+    margin-left:60px;
+}
+.nav-link{
+    margin: auto 8px ;
+}
+
+.dropdown-menu{
+    background-color: rgb(76, 223, 76);
+    
+}
