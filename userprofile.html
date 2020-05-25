@@ -55,49 +55,203 @@
     </nav>
 
 
-    <header class="jumbotron">
-
+    <header class="jumbotron header-style">
+            <div class="container">
+                <div class="row">
+                    <div class=col-12 col-sm-6>
         <h3>Model Youth Parliament</h3>
+        </div>
         <p>---------INFO----------</p>
+        </div>
+        <div class="row">
+            <div class="col-10">
+
+            </div>
+            <div class="col-2">
         <button class="btn text-white btn-success mb-0 align-self-center">Edit Profile</button>
+          </div>
+          </div>
+    </div>
     </header>
 
 
-    <div class="container">
-        <div class="col-12 col-md-4">
-            <h4>Account's Info</h4>
-        </div>
-        <div class="col-md-6">
-        <form action="#">
 
+
+    <div class="container container1">
+
+        <div class="row">
+          <div class="col-12 col-sm-3">
+
+            <h4>Account's Info</h4>
+            <br><br>
+            <form action="#">
+                <label for="avatar">Choose a profile picture:</label>
+
+                <input type="file"
+                       id="avatar" name="avatar"
+                       accept="image/png, image/jpeg , image/jpg">
+                
+             </form>
+             <br>
+              <div class="picture-style">
+               <img src="img/camera.png" class="img-fluid" alt="picture">
+              </div>
+          </div>
+        <div class="col-sm-6">
+        <form action="#">
+            <h5><br>Personal Details</h5>
             <div class="form-group row">
-                <label for="name" class="col-sm-2 col-form-label">Name</label>
-                <div class="col-sm-10">
+                <label for="name" class="col-sm-4 col-form-label">Name</label>
+                <div class="col-sm-8">
                   <input type="text" class="form-control" id="name" required>
                 </div>
               </div>
               <div class="form-group row">
-                <label for="number" class="col-sm-2 col-form-label">Mobile Number</label>
-                <div class="col-sm-10">
+                <label for="number" class="col-sm-4 col-form-label">Mobile Number</label>
+                <div class="col-sm-8">
                   <input type="text" class="form-control" id="number" name="number" required>
                 </div>
               </div>
               <div class="form-group row">
-                <label for="email" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="email" name="email" required>
+                <label for="email" class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="email" name="email" disabled>
                 </div>
               </div>
               <div class="form-group row">
-                <label for="number" class="col-sm-2 col-form-label">Mobile Number</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="number" name="number" required>
+                <label for="inputState" class="col-sm-4 col-form-label">Age Group</label>
+                <div class="col-sm-8">
+                  <select id="inputState" class="form-control" required>
+                      <option selected>13-20</option>
+                       <option>20-30</option>
+                       <option>30-40</option>
+                       <option>40-50</option>
+                       <option>50-60</option>
+                       <option>60-70</option>
+                       <option>70-80</option>
+                       <option>80-90</option>
+                       <option>90-100</option>
+                         </select>
+              </div>
+              </div>
+              <div class="form-group row">
+                <label for="name" class="col-sm-4 col-form-label">Country</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="country" required>
                 </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputState" class="col-sm-4 col-form-label">Profession</label>
+                <div class="col-sm-8">
+                  <select id="professiom" class="form-control" required>
+                      <option selected>Student</option>
+                       <option>Faculty</option>
+                       <option>Employed</option>
+                       <option>other</option>
+                         </select>
+              </div>    
+              </div>
+              <div class="form-group row">
+                <label for="inputState" class="col-sm-4 col-form-label">Highest Qualification</label>
+                <div class="col-sm-8">
+                  <select id="Qualification" class="form-control" required>
+                      <option selected></option>
+                       <option>High School</option>
+                       <option>PreUnversity(XII)</option>
+                       <option>Diploma</option>
+                       <option>Bachelor's Degree</option>
+                         </select>
+              </div>    
+              </div>
+              <br>
+              <h5>Education Details</h5>
+              <div class="form-group row">
+                <label for="cllg-name" class="col-sm-4 col-form-label">College/School Name</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="cllg-name" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="state" class="col-sm-4 col-form-label">State</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="state" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="degree" class="col-sm-4 col-form-label">Degree</label>
+                <div class="col-sm-8">
+                  <select id="degree" class="form-control" required>
+                      <option selected>--select--</option>
+                       <option>BE</option>
+                       <option>B.Tech</option>
+                       <option>ME</option>
+                       <option>M.Tech</option>
+                       <option>MS</option>
+                       <option>Medical</option>
+                       <option>Phd.</option>
+                       <option>Arts and Science</option>
+                       <option>Coomerce</option>
+                       <option>Science</option>
+                       <option>Others</option>
+                         </select>
+              </div>    
+              </div>
+              <div class="form-group row">
+                <label for="department" class="col-sm-4 col-form-label">Department</label>
+                <div class="col-sm-8">
+                  <select id="department" class="form-control" required>
+                      <option selected>--select--</option>
+                       <option>Aeraunatical Engineering</option>
+                       <option>Agricultural Engineering</option>
+                       <option>Architecture</option>
+                       <option>Automobile Engineering</option>
+                       <option>Biotechnology</option>
+                       <option>Cheramic Engineering</option>
+                       <option>Chemical Engineering</option>
+                       <option>Civil Engineering</option>
+                       <option>Computer Science and Engineering</option>
+                       <option>Electronics and Electrical Engineering</option>
+                       <option>Electronics Engineering</option>
+                       <option>Electrical Engineering</option>
+                       <option>Environment Engineering</option>
+                       <option>Food Engineering</option>
+                       <option>Industrial Engineering</option>
+                       <option>Information Technology</option>
+                       <option>Instrumental Engineering</option>
+                       <option>Mechanical Engineering</option>
+                       <option>Textile Engineering</option>
+                    </select>
+              </div>    
+              </div>
+              <div class="form-group row">
+                <label for="studyyear" class="col-sm-4 col-form-label">Study Year</label>
+                <div class="col-sm-8">
+                  <select id="studyyear" class="form-control" required>
+                      <option selected>--select--</option>
+                       <option>1st year</option>
+                       <option>2nd year</option>
+                       <option>3rd year</option>
+                       <option>4th year</option>
+                       <option>5th year</option>
+                       <option>6th year or Later</option>
+                       <option>Not Applicable</option>     
+                    </select>
+              </div>    
+              </div>
+              <br>
+
+              <div class="col-sm-8">
+                  <button type="submit" class= "btn btn-primary">Save</button>
               </div>
         </form>
+        </div>
 </div>
-    </div>
+<div>
 
+</div>
+
+    </div>
+<br><br><br><br>
 
     <footer class="footer">
         <div class="container">
